@@ -82,7 +82,6 @@ async def game_progress(client: OpenAI, answer: str, input: str) -> dict[str, An
 
 @app.websocket("/chat")
 async def chat(websocket: WebSocket) -> None:
-    print(environ.get("OPENAI_BASE_URL", "http://localhost:1337/v1"))
     client = OpenAI(
         base_url=environ.get("OPENAI_BASE_URL", "http://localhost:1337/v1"),
         api_key=environ.get("OPENAI_API_KEY", "n/a"),
