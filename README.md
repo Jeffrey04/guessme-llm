@@ -5,7 +5,7 @@ GuessMe is a classic word guessing game implemented with LLM.
 The game itself is a simple conversational game, where players get to do one of two things:
 
 1. Guess the secret word
-2. Ask an question that can only be answered by yes or no.
+2. Ask an question that can only be answered with yes or no.
 
 
 ## Setting up the game
